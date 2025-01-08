@@ -1,0 +1,33 @@
+1. bin -> www -> server root directory
+    - compiled code
+
+2. public filders
+    - assets
+    - stylesheets
+    - scripts
+
+3. routes
+    - all your modules
+        - manually created all modules and routes etc.
+    - class (variables, methods, classes, etc.)
+        - data
+
+4. views
+    - template files (HTML code)
+        - views = UI code
+            - jade
+            - pug
+            - ejx
+
+5. app.js (the heart of the application)
+    - import your modules
+    - add the required modules and packages etc
+
+6. package.json
+    - all dependencies
+    - scripts for starting, testing, etc.
+
+7. npm i (install dependencies)
+    - we should see a node_modules folder
+
+8. npm run start (start application)
