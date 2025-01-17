@@ -1,7 +1,7 @@
 1. bin -> www -> server root directory
     - compiled code
 
-2. public filders
+2. public folders
     - assets
     - stylesheets
     - scripts
@@ -17,7 +17,16 @@
         - views = UI code
             - jade
             - pug
-            - ejx
+            - ejs
+        - you will see the extension used
+            - .jade
+        
+        - can we change this once we have created?
+            - yes
+
+        - every view template maps to a route file
+
+        - the view template is a static HTML code where we will replace the values/data dynamically
 
 5. app.js (the heart of the application)
     - import your modules
@@ -31,3 +40,23 @@
     - we should see a node_modules folder
 
 8. npm run start (start application)
+
+Templates
+    Express/Node backend use cases
+        API layer
+            - expose only APIs or endpoints
+        Full feldge application including both backend and UI
+            - endpoints along with UI templates
+
+Template Engine
+    Enable you to use static template files in application
+    Template is fixed, only the data changes
+
+    Types:
+        - EJS
+        - Pug
+        - Jade
+        - Moustache
+
+    To create a new app with a specific template run:
+        express view = pug myapp
